@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+
+    padding: 10px 20px;
+
+    background-color: var(--black-secondary);
+}
+.selected{
+    color: white;
+}
+
+.navbar > .navbarItemsGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar > .navbarAdditionalGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.navbarItemsGroup > .navbarItems,
+.navbarAdditionalGroup  > div {
+    color: white;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarItemsGroup > .navbarItems.selected {
+    color: var(--gold-logo);
+}
+
+.navbarItemsGroup > .navbarItems  > span,
+.navbarAdditionalGroup  > div > span{
+    font-family: "Modern Antiqua", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navbar > .logo {
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar > .logo > img {
+    height: 120%;
+}

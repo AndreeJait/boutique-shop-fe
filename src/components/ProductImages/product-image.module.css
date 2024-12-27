@@ -1,0 +1,45 @@
+.mainWrapperProduct {
+    background-color: var(--black-primary);
+    width: 100%;
+    padding: 40px;
+}
+
+.mainWrapperProduct > div > h3 {
+    color: var(--gold-logo);
+    text-align: center;
+    font-family: "Modern Antiqua", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.productImages {
+    margin-top: 20px;
+    width: 100%;
+    max-height: calc(100vh - 80px);
+    position: relative;
+    overflow-y: scroll;
+}
+
+.productImages > div{
+    width: calc((100% / 4) - 10px);
+    position: absolute;
+    cursor: pointer;
+    transition: position 2s ease-in-out;
+}
+
+.productImages > div > img {
+    width: 100%;
+}
+
+.loadMore {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    color: var(--gold-logo);
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.bigWrapProduct {
+    position: relative;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+/**
+  font-family: "Modern Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+**/
+
+:root {
+  --black-primary: #292929;
+  --black-secondary: #333333;
+  --gold-logo: #E9D9A8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}

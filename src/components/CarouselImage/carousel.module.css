@@ -1,0 +1,22 @@
+.customCarouselImage {
+    width: 100%;
+}
+.customCarouselImageItem {
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+.customCarouselImageItem > img {
+    width: 100%;
+    height: 100%;
+}
+
+.customCarouselImageItem {
+    font-family: "Modern Antiqua", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.customCarouselImageItem  h4 {
+    color: var(--gold-logo);
+}
